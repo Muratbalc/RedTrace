@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "device_1",
+      "device_type": "Router",
+      "hostname": "core-router",
+      "ip_address": "10.0.0.1",
+      "position": [0.5, 0.2]
+    },
+    {
+      "id": "device_2",
+      "device_type": "Switch",
+      "hostname": "switch-a",
+      "ip_address": "10.0.1.2",
+      "position": [0.3, 0.6]
+    },
+    {
+      "id": "device_3",
+      "device_type": "Server",
+      "hostname": "app-server",
+      "ip_address": "10.0.2.10",
+      "position": [0.7, 0.6]
+    },
+    {
+      "id": "device_4",
+      "device_type": "PC",
+      "hostname": "workstation-1",
+      "ip_address": "10.0.3.21",
+      "position": [0.5, 0.85]
+    }
+  ],
+  "links": [
+    {
+      "source": "device_1",
+      "target": "device_2",
+      "link_type": "wired"
+    },
+    {
+      "source": "device_1",
+      "target": "device_3",
+      "link_type": "wired"
+    },
+    {
+      "source": "device_2",
+      "target": "device_4",
+      "link_type": "wireless"
+    },
+    {
+      "source": "device_3",
+      "target": "device_4",
+      "link_type": "wired"
+    }
+  ]
+}
+
