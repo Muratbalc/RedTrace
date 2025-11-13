@@ -16,14 +16,13 @@ FastAPI tabanlı backend ve React + Tailwind frontend ile yerel ağınızdaki ci
 - **Etkileşimli Frontend**:
   - Hover ile özet bilgi (IP, hostname, açık port sayısı)
   - Düğüme tıklayınca port / servis detaylarını gösteren bilgi kartı
-  - Neon-kırmızı Tron teması, koyu arka plan
 - **Ayrıntılı Loglama**: `/api/scan` isteğinde adım adım tarama log’ları (interface, ARP, Nmap batch bilgileri)
 
 ---
 
 ## Kurulum
 
-### Sistem Bağımlılıkları (Debian/Ubuntu)
+### (Debian/Ubuntu)
 
 ```bash
 sudo apt update
