@@ -1,8 +1,10 @@
-![favicon]()
+<p align="center">
+  <img src="favicon.svg" alt="RedTrace" width="128" height="128">
+</p>
 
-## Network Topology Visualizer
+# RedTrace - Network Topology Visualizer
 
-FastAPI tabanlı bir backend ve React + Tailwind arayüzü ile yerel ağınızdaki cihazları otomatik olarak keşfedip, Tron esintili neon-kırmızı bir topoğrafya üzerinde görselleştirmenizi sağlayan bir projedir.
+FastAPI tabanlı backend ve React + Tailwind frontend ile yerel ağınızdaki cihazları keşfederek, Tron esintili neon-kırmızı bir topoloji üzerinde görselleştirmenizi sağlayan bir projedir.
 
 ---
 
@@ -123,16 +125,3 @@ Tüm bu adımlar, log dosyalarına ve `debug.steps` alanına bilgi olarak yazıl
 
 ---
 
-## Katkıda Bulunma
-
-1. Bu repoyu fork’layın.
-2. Yeni bir feature/bugfix branch’i açın.
-3. Değişikliklerinizi yapın ve test edin.
-4. Açık ve kısa bir açıklama ile Pull Request açın.
-
-Kod stilinde:
-
-- Python için `black` / `ruff` benzeri araçlarla biçimlendirme önerilir.
-- Frontend tarafında React + Tailwind kullanılmakta; gereksiz inline stil yerine Tailwind sınıfları tercih edin.
-
----
