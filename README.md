@@ -70,9 +70,9 @@ npm install
    npm run dev
    ```
 
-   Geliştirme arayüzü genellikle `http://localhost:5173` üzerinde çalışır.
+   Genellikle `http://localhost:5173` üzerinde çalışır.
 
-### Production (Ön Yüz Derlenmiş)
+### Production 
 
 ```bash
 cd frontend
@@ -102,7 +102,7 @@ Derlenmiş frontend, FastAPI uygulaması tarafından `http://127.0.0.1:8000` üz
 
 ---
 
-## Kullanım (Özet Akış)
+## Kullanım 
 
 1. `/api/scan` çağrısı yapılır (frontend üzerinden veya doğrudan HTTP ile).
 2. Backend aşağıdaki adımları uygular:
