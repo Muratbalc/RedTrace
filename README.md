@@ -1,3 +1,5 @@
+![favicon]()
+
 ## Network Topology Visualizer
 
 FastAPI tabanlı bir backend ve React + Tailwind arayüzü ile yerel ağınızdaki cihazları otomatik olarak keşfedip, Tron esintili neon-kırmızı bir topoğrafya üzerinde görselleştirmenizi sağlayan bir projedir.
