@@ -6,11 +6,11 @@ FastAPI tabanlı bir backend ve React + Tailwind arayüzü ile yerel ağınızda
 
 ## Özellikler
 
-- **Düğüm Tabanlı Topoloji**: IP, MAC, hostname ve cihaz tipine göre düğümler
+- **Node Tabanlı Topoloji**: IP, MAC, hostname ve cihaz tipine göre nodelar
 - **ARP Keşfi**: Scapy tabanlı ARP taraması ve pasif dinleme, nmap ve ARP tablosu geri dönüşleri
 - **Nmap Port/Servis Taraması**: XML çıktı ile sağlam ayrıştırma, batch + paralel tarama
 - **Etkileşimli Frontend**:
-  - Düğümlere hover ile özet bilgi (IP, hostname, açık port sayısı)
+  - Hover ile özet bilgi (IP, hostname, açık port sayısı)
   - Düğüme tıklayınca port / servis detaylarını gösteren bilgi kartı
   - Neon-kırmızı Tron teması, koyu arka plan
 - **Ayrıntılı Loglama**: `/api/scan` isteğinde adım adım tarama log’ları (interface, ARP, Nmap batch bilgileri)
@@ -46,7 +46,7 @@ npm install
 
 ## Çalıştırma
 
-### Geliştirme Ortamı
+### 
 
 1. **Backend’i başlatın**
 
@@ -79,11 +79,11 @@ source venv/bin/activate
 sudo venv/bin/python -m uvicorn backend.main:app --reload
 ```
 
-Derlenmiş frontend, FastAPI uygulaması tarafından `http://127.0.0.1:8000` üzerinden servis edilir.
+Derlenmiş frontend, FastAPI uygulaması tarafından `http://127.0.0.1:8000` üzerinden çalışır.
 
 ---
 
-## API Uç Noktaları
+## API Enpoints
 
 - `GET /api/health`
   - Servisin ayakta olup olmadığını döner.
@@ -134,11 +134,3 @@ Kod stilinde:
 - Frontend tarafında React + Tailwind kullanılmakta; gereksiz inline stil yerine Tailwind sınıfları tercih edin.
 
 ---
-
-## Lisans
-
-Bu proje için lisans metni henüz eklenmemiştir.
-
-- Örnek: MIT, Apache-2.0 veya GPL-3.0 kullanılabilir.
-- Kurumsal gereksinimlerinize uygun lisansı seçip `LICENSE` dosyası ekleyin.
-
