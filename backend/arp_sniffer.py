@@ -19,6 +19,7 @@ For Scapy methods, elevated privileges are required:
 - OR: sudo setcap cap_net_raw,cap_net_admin+eip /path/to/venv/bin/python3
 
 For nmap and ARP table parsing, sudo is also recommended but not always required.
+
 """
 
 from __future__ import annotations
